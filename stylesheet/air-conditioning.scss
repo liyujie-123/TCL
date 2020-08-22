@@ -1,0 +1,113 @@
+@charset "utf-8";
+.body{
+    background-color: #f2f2f2;
+}
+// 导航条部分
+.navigation{
+    background-color: #666666;
+}
+.navigation .container{
+    width:1300px;
+    height: 48px;
+    margin:auto;
+    // border: 1px solid black;
+}
+.navigation .container .top_nav{
+    width: 526px;
+    height: 47px;
+    // border: 1px solid red;
+    float: left;
+}
+.navigation .container .top_nav a{
+    color: #CCCCCC;
+    font-size: 12px;
+    line-height: 48px;
+    padding:0 20px;
+}
+.navigation .container .top_info{
+    width: 419px;
+    height: 47px;
+    // border: 1px solid red;
+    float: right;
+}
+.navigation .container .top_info a{
+    color: #CCCCCC;
+    font-size: 12px;
+    line-height: 48px;
+    padding:0 15px;
+}
+.navigation .container .top_info span{
+    color: #CCCCCC;
+    font-size: 12px;
+}
+
+
+
+// 头部导航词
+.header-nav .container{
+    width:1300px;
+    height: 103px;
+    margin: auto;
+    // border: 1px solid gold;
+}
+.header-nav .container .header_logo{
+    width: 83px;
+    height:45px;
+    // border: 1px solid black;
+    padding-top: 22.5px;
+    float: left;
+}
+.header-nav .container .header_logo img{
+    width: 83px;
+    height:45px;
+}
+.header-nav .container .nav_list-left{
+    float: left;
+    margin-left: 50px;
+}
+.header-nav .container .nav_list-left a{
+    color: #333333;
+    font-size: 14px;
+    padding: 20px 10px 0;
+}
+.header-nav .container .nav_list-left .nav_item{
+    display: inline-block;
+    line-height: 103px;
+}
+.header-nav .container .nav_list-right{
+    float: left;
+    // border: 1px solid black;
+    margin-left: 50px;
+}
+.header-nav .container .nav_list-right span{
+    color: #E3E3E3;
+}
+.header-nav .container .nav_list-right a{
+    color: #333333;
+    font-size: 14px;
+    padding: 20px 10px 0;
+}
+.header-nav .container .header_search input{
+    float: right;
+	width: 250px;
+	height: 33px;
+	border: 1px solid #E0E0E0;
+	margin: 35px 0;
+}
+.header-nav .container .nav_list-right .nav_item{
+    display: inline-block;
+    line-height: 103px;
+}
+// 轮播图
+.banner .container img{
+    width: 100%;
+    height: 100%;
+}
+
+// 价格选择
+.price .container{
+    width: 1300px;
+    height: 350px;
+    border: 1px solid red;
+    margin: auto;
+}
