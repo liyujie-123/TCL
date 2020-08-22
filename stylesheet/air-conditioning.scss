@@ -1,6 +1,6 @@
 @charset "utf-8";
-.body{
-    background-color: #f2f2f2;
+body{
+    background-color: #F1F1F1;
 }
 // 导航条部分
 .navigation{
@@ -106,8 +106,127 @@
 
 // 价格选择
 .price .container{
-    width: 1300px;
+    width: 1250px;
     height: 350px;
-    border: 1px solid red;
+    background-color:#FFFFFF;
+    // border: 1px solid red;
+    margin:20px auto 0;
+    padding: 25px 25px;
+}
+.price .container .cost{
+    width: 1080px;
+    height: 80px;
+    // border: 1px solid green;
+    margin-left: 100px;
+    margin-top: 45px;
+}
+.price .container .cost .cost-left{
+    float: left;
+}
+.price .container .cost .cost-left a{
+    margin-right: 50px;
+}
+
+.price .container .cost .cost-right{
+    float: right;
+    width: 820px;
+    height: 80px;
+    // border: 1px solid goldenrod;
+
+}
+.price .container .cost .cost-right a{
+    margin-right: 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+// 综合排序
+.synthesize{
+    padding: 35px 0;
+}
+.synthesize .container{
+    width: 1300px;
+    height: 30px;
+    // border: 1px solid red;
     margin: auto;
+}
+.synthesize .container a{
+    margin-right: 50px;
+    color: #333333;
+}
+
+// 空调分类
+.classify .container{
+    width: 1300px;
+    height: 1288px;
+    // border: 1px solid red;
+    margin: auto;
+}
+.classify .container ul{
+    text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+}
+.classify .container li{
+    width: 400px;
+    height: 416px;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    // border: 1px solid black;
+}
+
+// 帮助
+.help{
+    height: 306px;
+    background-color: #f0f0f0;
+}
+.help .container{
+    width: 1300px;
+    height: 306px;
+    // border: 1px solid red;
+    margin: auto;
+}
+.help .container div {
+    width: 125px;
+	height: 162px;
+	// border: 1px solid red;
+	float: left;
+    margin-left: 88px;
+    margin-top: 50px;
+}
+.help .container h2{
+    font-size: 16px;
+	font-weight: bold;
+}
+.help .container li{
+    font-size: 12px;
+	color: #626b58;
+	margin-top: 8px;
+}
+// 底部
+.footer{
+    height: 180px;
+    background-color: #E3E3E3;
+}
+.footer .container{
+    width: 1300px;
+    height: 180px;
+    // border: 1px solid purple;
+    margin: auto;
+}
+.footer .container a{
+    color: #999999;
+    font-size: 13px;
+}
+.footer .container span{
+    color: #999999;
+    font-size: 12px;
+}
+.footer .container .footer-img{
+    margin-left: 500px;
+}
+.footer .container .footer-right{
+    float: right;
+    margin-right: 193px;
 }
